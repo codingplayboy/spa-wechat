@@ -1,0 +1,37 @@
+.spa-group-wrapper {
+	position: absolute;
+	top: 0;
+	left: 130px;
+	width: 190px;
+	height: 400px;
+	background: #ddd;
+	z-index: 20;
+}
+
+.spa-group-roster-groups {
+	position: relative;
+	left: 10px;
+	width: 100%;
+}
+
+.spa-group-list-name,
+.spa-group-list-note {
+
+	width: 100%;
+	padding: .1em .5em;
+}
+
+.spa-group-list-name {
+	cursor: pointer;
+}
+
+.spa-group-list-name:hover {
+	background-color: #aaa;
+	color: #888;
+}
+
+.spa-group-list-name.spa-x-select {
+	background-color: #fff;
+	color: #444;
+}
+

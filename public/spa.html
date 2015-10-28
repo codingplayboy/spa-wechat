@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>SPA Chapter1.0</title>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/spa.css" />
+	<link rel="stylesheet" href="css/spa.shell.css" />
+	<link rel="stylesheet" href="css/spa.chat.css" />
+	<link rel="stylesheet" href="css/spa.avtr.css" />
+	<link rel="stylesheet" href="css/spa.group.css" />
+
+	<!-- javascripts -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/lib/taffy.js"></script>
+	<script src="js/lib/jquery-2.1.4.min.js"></script>
+	<script src="js/lib/jquery.uriAnchor.js"></script>
+	<script src="js/lib/jquery.event.gevent.js"></script>
+	<script src="js/lib/jquery.event.ue.js"></script>
+	<script src="js/spa.js"></script>
+	<script src="js/spa.util.js"></script>
+	<script src="js/spa.data.js"></script>
+	<script src="js/spa.fake.js"></script>
+	<script src="js/spa.model.js"></script>
+	<script src="js/spa.util_b.js"></script>
+	<script src="js/spa.shell.js"></script>
+	<script src="js/spa.chat.js"></script>
+	<script src="js/spa.avtr.js"></script>
+	<script src="js/spa.group.js"></script>
+	
+	<script>
+	$(function() {
+		spa.initModule(jQuery('#spa'));
+	});
+	</script>
+</head>
+<body>
+	<div id="spa">
+		<div class="spa-slider"></div>
+	</div>
+</body>
+</html>

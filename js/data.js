@@ -1,0 +1,1 @@
+var a = ' I don not think the meaning of life is a rutabaga';
